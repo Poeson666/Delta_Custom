@@ -10,42 +10,19 @@ function ExecuteMain()
     
   end
   
-  if _G.DeltaCustomTemplates == "ShampooTemplate" then
-    
-    warn("You have chosen the Shampoo template 😊")
-    
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Shampoo%20Template/init.lua')))()
-    
-  elseif _G.DeltaCustomTemplates == "HackerTemplate" then
-    
-    warn("You have chosen the Hacker template 💀")
-    
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Hacker%20Template/init.lua')))()
-    
-  elseif _G.DeltaCustomTemplates == "GengarTemplate" then
+if _G.DeltaCustomTemplates == "GengarTemplate" then
     
     warn("You have chosen the Gengar template 😈")
     
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Gengar%20Template/init.lua')))()
     
-  elseif _G.DeltaCustomTemplates == "KirbyTemplate" then
+
+  elseif _G.DeltaCustomTemplates == "PoisonTemplate" then
     
-    warn("You have chosen the Kirby template 🩷")
-    
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Kirby%20Template/init.lua')))()
-    
-  elseif _G.DeltaCustomTemplates == "SteveTemplate" then
-    
-    warn("You have chosen the Steve template 😎")
-    
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Steve%20Template/init.lua')))()
-    
-  elseif _G.DeltaCustomTemplates == "SonicTemplate" then
-    
-    warn("You have chosen the Sonic template 🦔")
-    
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Sonic%20Template/init.lua')))()
-    
+      warn("You have chosen the Poison Template 💛")
+      
+      loadstring(game:HttpGet(('')))()
+      
   end
   
 end
